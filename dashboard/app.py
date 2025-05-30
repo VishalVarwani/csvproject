@@ -20,7 +20,7 @@ if 'model' not in st.session_state:
 
 # Page setup
 st.set_page_config(page_title="LLM Chart Generator", layout="wide")
-st.title("📊 AI Chart Assistant (LangChain + Plotly + Streamlit)")
+st.title("📊 AI Chart Assistant")
 
 # Sidebar for file upload
 uploaded_file = st.sidebar.file_uploader("Upload CSV or Excel", type=["csv", "xls", "xlsx"])
