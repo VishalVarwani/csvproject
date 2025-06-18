@@ -4,3 +4,5 @@ plotly
 python-dotenv
 langchain
 langchain-groq
+pymongo
+dotenv
