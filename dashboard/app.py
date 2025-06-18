@@ -15,8 +15,8 @@ load_dotenv()
 GROQ_API_KEY = st.secrets["GROQ_API_KEY"]
 
 # MongoDB
-client = MongoClient("mongodb://localhost:27017/")
-wamo_collection = client["wamo"]["wamodata"]
+client = MongoClient(st.secrets["MONGO_URI"])
+wamo_collection = client["Wamoproject"]["csv"]
 
 # WAMO Mapping
 WAMO_MAPPING = {
