@@ -219,7 +219,7 @@ fig = px.line(df, x="Time", y="pH", title="pH over Time")
  f"The user may ask questions or request charts. If they request a chart, return only Python code using Plotly Express (as `px`) in triple backticks. "
  f"Do not include explanations. "
  f"The DataFrame has {df.shape[0]} rows and {df.shape[1]} columns. Columns: {', '.join(df.columns)}.\n\n"
- f"Sample:\n{df.head(5).to_string(index=False)}"
+ f"Sample:\n{df.head(50).to_string(index=False)}"
                 ),
                 MessagesPlaceholder(variable_name="messages")
             ])
