@@ -16,7 +16,7 @@ GROQ_API_KEY = st.secrets["GROQ_API_KEY"]
 
 # MongoDB
 client = MongoClient(st.secrets["MONGO_URI"])
-wamo_collection = client["Wamoproject"]["csv"]
+wamo_collection = client["Wamoproject"]["CSV"]
 
 # WAMO Mapping
 WAMO_MAPPING = {
