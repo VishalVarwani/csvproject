@@ -36,7 +36,7 @@ WAMO_MAPPING = {
 }
 
 # Streamlit Page Config
-st.set_page_config(page_title="📊 AI Chart Assistant", layout="wide")
+st.set_page_config(page_title="📊 AI Chart Assistant", layout="wide",initial_sidebar_state="expanded")
 
 # Inject sidebar style
 st.markdown("""
